@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspnetIdentityV2.props" />
+</Project>
