@@ -8,5 +8,7 @@ namespace AspnetIdentityV2.Models
         public string Token { get; set; }
         public string Code { get; set; }
 
+        public string? OrCodeUrl { get; set; }
+
     }
 }

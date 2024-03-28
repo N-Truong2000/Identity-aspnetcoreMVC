@@ -8,7 +8,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -29,7 +28,7 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric = false;
 
     options.Lockout.MaxFailedAccessAttempts = 3;
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(10);
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
 
     options.SignIn.RequireConfirmedEmail = true;
 });
@@ -38,9 +37,14 @@ builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Identity/SignIn";
     options.AccessDeniedPath = "/Identity/AccessDenied";
-    options.ExpireTimeSpan = TimeSpan.FromSeconds(10);
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
 });
 
+builder.Services.AddAuthentication().AddFacebook(option =>
+{
+    option.AppId = builder.Configuration["FacebookAppId"];
+    option.AppSecret = builder.Configuration["FacebookAppSecret"];
+});
 
 //builder.Services.Configure<SmtpOptions>(builder.Configuration["Smtp"]);
 #region   DI
@@ -57,6 +61,8 @@ builder.Services.AddAuthorization(option =>
         p.RequireClaim("Dapartment", "IT").RequireRole("Admin");
     });
 });
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

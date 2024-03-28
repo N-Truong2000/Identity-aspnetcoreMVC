@@ -3,7 +3,6 @@ using AspnetIdentityV2.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 using System.Security.Claims;
 
 namespace AspnetIdentityV2.Controllers
@@ -102,16 +101,29 @@ namespace AspnetIdentityV2.Controllers
         {
             if (ModelState.IsValid)
             {
+                var user = await _userManager.FindByNameAsync(model.Username);
+                if (user is null)
+                {
+                    ModelState.AddModelError("SignIn", $"Tài khoản không tồn tại.");
+                    return View(model);
+                }
                 var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, true);
                 if (result.IsLockedOut)
                 {
-                    ModelState.AddModelError("SignIn", "Lockout.");
-                    return View(model);
+                    var lockoutEnd = await _userManager.GetLockoutEndDateAsync(user);
+                    if (lockoutEnd.HasValue && lockoutEnd.Value > DateTimeOffset.Now)
+                    {
+                        var remainingTime = lockoutEnd.Value - DateTimeOffset.UtcNow;
+
+                        var remainingTimeString = $"{(int)remainingTime.TotalHours} : {(int)remainingTime.TotalMinutes} : {(int)remainingTime.TotalSeconds % 60}";
+
+                        ModelState.AddModelError("SignIn", $"Tài khoản của bạn đã bị khóa. Thời gian còn lại: {remainingTimeString}");
+                        return View(model);
+                    }
 
                 }
                 if (result.Succeeded)
                 {
-                    var user = await _userManager.FindByEmailAsync(model.Username);
                     var userClaim = await _userManager.GetClaimsAsync(user);
                     if (!userClaim.Any(x => x.Type == "Dapartment"))
                     {
@@ -148,10 +160,12 @@ namespace AspnetIdentityV2.Controllers
         [Authorize]
         public async Task<IActionResult> MFASetup()
         {
+            var provider = "aspnetidentity";
             var user = await _userManager.GetUserAsync(User);
             await _userManager.ResetAuthenticatorKeyAsync(user);
             var token = await _userManager.GetAuthenticatorKeyAsync(user);
-            var model = new MFAViewModel() { Token = token };
+            var qrCodeUrl = $"otpauth://totp/{provider}:{user.Email}?secret={token}&issuer={provider}&digits=6";
+            var model = new MFAViewModel() { Token = token ,OrCodeUrl=qrCodeUrl};
             return View(model);
         }
 
@@ -166,6 +180,8 @@ namespace AspnetIdentityV2.Controllers
                 if (reuslt)
                 {
                     await _userManager.SetTwoFactorEnabledAsync(user, true);
+                    ViewBag.Success = "success";
+                    return View(model);
                 }
                 else
                 {
@@ -173,8 +189,20 @@ namespace AspnetIdentityV2.Controllers
                     return View(model);
                 }
             }
-
+            ViewBag.Success = "failed";
             return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> ExternalLogin(string provider,string redirectUrl=null)
+        {
+            var prop = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+            var callBackUrl = Url.Action("ExternalLoginCallback");
+            prop.RedirectUri = callBackUrl;
+            return Challenge(prop, provider);
+        }
+        public async Task<IActionResult> ExternalLoginCallback(string provider)
+        {
+            return View();
         }
     }
 }

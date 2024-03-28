@@ -22,5 +22,4 @@ body {
 }
 .field-validation-error {
     color: red;
-    display: unset;
 }

@@ -5,13 +5,40 @@
 <p>
     Token:  @Model.Token
 </p>
+<p>
+    Alternatively, scan the below QRCode with your mobile phone.
+</p>
+<div id="qrcode"></div>
+@if (ViewBag.Success == "success")
+{
+    <div class="alert alert-success" role="alert">
+        Login successful!
+    </div>
+}
+else if (ViewBag.Success == "failed")
+{
+    <div class="alert alert-danger" role="alert">
+        Login failed. Please check your MFA code.
+    </div>
+}
+
 <form asp-controller="Identity" asp-action="MFASetup" method="post">
     <input type="hidden" asp-for="Token" />
     <div class="form-group">
         Enter Code: <input type="text" class="form-control" asp-for="Code" />
     </div>
-    <div>
-        @Html.ValidationSummary(false, "", new { @class = "field-validation-error" })
-    </div>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="field-validation-error alert alert-danger " role="alert">
+            @Html.ValidationSummary()
+        </div>
+    }
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+@section Scripts
+{
+    <script src="~/js/qrcode.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        new QRCode(document.getElementById("qrcode"), "@Model.OrCodeUrl");
+    </script>
+}
