@@ -1,5 +1,5 @@
 @Auth_Service_HostAddress = https://localhost:7207
-
+@accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRyYW5odXVuaGF0dHJ1b25nOWE0QGdtYWlsLmNvbSIsIm5iZiI6MTcxMTg4NDQ3NywiZXhwIjoxNzExOTcwODc3LCJpYXQiOjE3MTE4ODQ0Nzd9.BXpegdLzDnrO0hq1BBtPUqcbETHC2S_VYr-sVKkhdM4
 POST {{Auth_Service_HostAddress}}/authen
 Accept: application/json
 Content-Type:application/json
@@ -10,3 +10,8 @@ Content-Type:application/json
 }
 
 ###
+
+GET {{Auth_Service_HostAddress}}/validate?token={{accessToken}}
+
+Accept: application/access_token
+Content-Type:application/json
