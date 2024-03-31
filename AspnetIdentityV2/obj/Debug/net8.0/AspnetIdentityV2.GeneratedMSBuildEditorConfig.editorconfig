@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/ExternalLoginCallback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcRXh0ZXJuYWxMb2dpbkNhbGxiYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/MFASetup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTUZBU2V0dXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

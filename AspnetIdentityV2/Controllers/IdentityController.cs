@@ -3,6 +3,7 @@ using AspnetIdentityV2.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.WebSockets;
 using System.Security.Claims;
 
 namespace AspnetIdentityV2.Controllers
@@ -165,7 +166,7 @@ namespace AspnetIdentityV2.Controllers
             await _userManager.ResetAuthenticatorKeyAsync(user);
             var token = await _userManager.GetAuthenticatorKeyAsync(user);
             var qrCodeUrl = $"otpauth://totp/{provider}:{user.Email}?secret={token}&issuer={provider}&digits=6";
-            var model = new MFAViewModel() { Token = token ,OrCodeUrl=qrCodeUrl};
+            var model = new MFAViewModel() { Token = token, OrCodeUrl = qrCodeUrl };
             return View(model);
         }
 
@@ -192,8 +193,9 @@ namespace AspnetIdentityV2.Controllers
             ViewBag.Success = "failed";
             return View(model);
         }
+
         [HttpPost]
-        public async Task<IActionResult> ExternalLogin(string provider,string redirectUrl=null)
+        public async Task<IActionResult> ExternalLogin(string provider, string redirectUrl = null)
         {
             var prop = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
             var callBackUrl = Url.Action("ExternalLoginCallback");
@@ -202,7 +204,18 @@ namespace AspnetIdentityV2.Controllers
         }
         public async Task<IActionResult> ExternalLoginCallback(string provider)
         {
-            return View();
+            var info =await _signInManager.GetExternalLoginInfoAsync();
+            var emailClaim = info.Principal.Claims.FirstOrDefault(x=>x.Type== ClaimTypes.Email);
+            var user = new IdentityUser
+            {
+                Email = emailClaim.Value,
+                UserName = emailClaim.Subject.Name,
+            };
+            await _userManager.CreateAsync(user);
+            await _userManager.AddLoginAsync(user, info);
+            await _signInManager.SignInAsync(user, isPersistent: false);
+
+            return RedirectToAction("home");
         }
     }
 }

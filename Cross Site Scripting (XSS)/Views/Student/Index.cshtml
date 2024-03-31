@@ -1,0 +1,17 @@
+﻿@model StudentViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+
+            <form method="post" asp-action="SignUp" asp-controller="Student">
+                <label for="FullName">Enter your full name:</label>
+                <input type="text" asp-for="FullName" id="FullName" />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+</div>

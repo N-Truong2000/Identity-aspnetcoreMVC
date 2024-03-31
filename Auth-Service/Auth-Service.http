@@ -1,0 +1,12 @@
+@Auth_Service_HostAddress = https://localhost:7207
+
+POST {{Auth_Service_HostAddress}}/authen
+Accept: application/json
+Content-Type:application/json
+
+{
+    "UserName":"tranhuunhattruong9a4@gmail.com",
+    "Password":"Bj06337554800"
+}
+
+###

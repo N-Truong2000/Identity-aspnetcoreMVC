@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Cross Site Scripting (XSS).props" />
+</Project>

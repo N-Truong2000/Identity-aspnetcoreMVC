@@ -1,0 +1,31 @@
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\appsettings.Development.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\appsettings.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\Cross Site Scripting (XSS).staticwebassets.runtime.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\Cross Site Scripting (XSS).exe
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\Cross Site Scripting (XSS).deps.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\Cross Site Scripting (XSS).runtimeconfig.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\Cross Site Scripting (XSS).dll
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\bin\Debug\net8.0\Cross Site Scripting (XSS).pdb
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).GeneratedMSBuildEditorConfig.editorconfig
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).AssemblyInfoInputs.cache
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).AssemblyInfo.cs
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).csproj.CoreCompileInputs.cache
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).MvcApplicationPartsAssemblyInfo.cache
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).RazorAssemblyInfo.cache
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).RazorAssemblyInfo.cs
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).sourcelink.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets.build.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets.development.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets\msbuild.Cross Site Scripting (XSS).Microsoft.AspNetCore.StaticWebAssets.props
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets\msbuild.build.Cross Site Scripting (XSS).props
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Cross Site Scripting (XSS).props
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Cross Site Scripting (XSS).props
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\staticwebassets.pack.json
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\scopedcss\bundle\Cross Site Scripting (XSS).styles.css
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\scopedcss\projectbundle\Cross Site Scripting (XSS).bundle.scp.css
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).dll
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\refint\Cross Site Scripting (XSS).dll
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).pdb
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\Cross Site Scripting (XSS).genruntimeconfig.cache
+D:\AspnetCore_Identity\Cross Site Scripting (XSS)\obj\Debug\net8.0\ref\Cross Site Scripting (XSS).dll

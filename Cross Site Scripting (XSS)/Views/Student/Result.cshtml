@@ -1,0 +1,11 @@
+﻿@model StudentViewModel
+@using System.Text.Encodings.Web
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h1>@Html.Raw(Model.FullName)</h1>
+
+<h2>@HtmlEncoder.Default.Encode(Model. FullName)</h2>
+@JavaScriptEncoder.Default.Encode(Model.FullName)
+@UrlEncoder.Default.Encode(Model.FullName)|

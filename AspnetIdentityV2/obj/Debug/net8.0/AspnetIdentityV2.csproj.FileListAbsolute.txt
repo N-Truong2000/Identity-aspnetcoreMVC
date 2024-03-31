@@ -272,3 +272,6 @@ D:\AspnetCore_Identity\AspnetIdentityV2\obj\Debug\net8.0\refint\AspnetIdentityV2
 D:\AspnetCore_Identity\AspnetIdentityV2\obj\Debug\net8.0\AspnetIdentityV2.pdb
 D:\AspnetCore_Identity\AspnetIdentityV2\obj\Debug\net8.0\AspnetIdentityV2.genruntimeconfig.cache
 D:\AspnetCore_Identity\AspnetIdentityV2\obj\Debug\net8.0\ref\AspnetIdentityV2.dll
+D:\AspnetCore_Identity\AspnetIdentityV2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\AspnetCore_Identity\AspnetIdentityV2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\AspnetCore_Identity\AspnetIdentityV2\obj\Debug\net8.0\AspnetIdentityV2.sourcelink.json

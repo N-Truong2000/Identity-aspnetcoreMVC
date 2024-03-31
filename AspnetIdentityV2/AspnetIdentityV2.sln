@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetIdentityV2", "AspnetIdentityV2.csproj", "{350E8A48-EE4A-452C-AC97-40D9BCDF9FEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-Service", "..\Auth-Service\Auth-Service.csproj", "{E81D2C11-E558-4ED8-B131-226F6343269C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cross Site Scripting (XSS)", "..\Cross Site Scripting (XSS)\Cross Site Scripting (XSS).csproj", "{4107DB04-D24C-47BC-A346-A4A8668D18F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{350E8A48-EE4A-452C-AC97-40D9BCDF9FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350E8A48-EE4A-452C-AC97-40D9BCDF9FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350E8A48-EE4A-452C-AC97-40D9BCDF9FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81D2C11-E558-4ED8-B131-226F6343269C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81D2C11-E558-4ED8-B131-226F6343269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81D2C11-E558-4ED8-B131-226F6343269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81D2C11-E558-4ED8-B131-226F6343269C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4107DB04-D24C-47BC-A346-A4A8668D18F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4107DB04-D24C-47BC-A346-A4A8668D18F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4107DB04-D24C-47BC-A346-A4A8668D18F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4107DB04-D24C-47BC-A346-A4A8668D18F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
