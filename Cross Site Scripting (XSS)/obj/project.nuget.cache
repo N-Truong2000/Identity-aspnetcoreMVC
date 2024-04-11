@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZGjfxaUVA8WfkcjNbIBGeDREsFKSCoKzKS+pfUEotI/GdJIjlg5lFGMitqk4WC9MQQOXW4pPV5hSel8yJPdNSg==",
+  "dgSpecHash": "/L+OHv//r4yvPR8ZWDMB/qN61QdvFV9ClB74Ha98/2SNBuPOm/cov4Z+BYF9+b9C7VUT0jxmhXGmJhFWeMsG1Q==",
   "success": true,
-  "projectFilePath": "D:\\AspnetCore_Identity\\Cross Site Scripting (XSS)\\Cross Site Scripting (XSS).csproj",
+  "projectFilePath": "D:\\Udemy\\AspnetCore_Identity\\Cross Site Scripting (XSS)\\Cross Site Scripting (XSS).csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

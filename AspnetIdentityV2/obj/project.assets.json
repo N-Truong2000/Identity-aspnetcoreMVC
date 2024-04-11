@@ -4313,11 +4313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AspnetCore_Identity\\AspnetIdentityV2\\AspnetIdentityV2.csproj",
+      "projectUniqueName": "D:\\Udemy\\AspnetCore_Identity\\AspnetIdentityV2\\AspnetIdentityV2.csproj",
       "projectName": "AspnetIdentityV2",
-      "projectPath": "D:\\AspnetCore_Identity\\AspnetIdentityV2\\AspnetIdentityV2.csproj",
+      "projectPath": "D:\\Udemy\\AspnetCore_Identity\\AspnetIdentityV2\\AspnetIdentityV2.csproj",
       "packagesPath": "C:\\Users\\tranh\\.nuget\\packages\\",
-      "outputPath": "D:\\AspnetCore_Identity\\AspnetIdentityV2\\obj\\",
+      "outputPath": "D:\\Udemy\\AspnetCore_Identity\\AspnetIdentityV2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

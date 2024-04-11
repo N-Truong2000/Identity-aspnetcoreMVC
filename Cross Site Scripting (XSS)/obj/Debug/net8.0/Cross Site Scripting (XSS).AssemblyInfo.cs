@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cross Site Scripting (XSS)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11e2f1e17e3f3d0a772d1bba4e7b56ea216925ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b2a9562e6e73d20f2172f21071bdce176e920d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cross Site Scripting (XSS)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cross Site Scripting (XSS)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

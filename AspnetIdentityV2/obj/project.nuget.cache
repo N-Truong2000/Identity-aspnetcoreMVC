@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e/f+mOPtEJa4VXRsOUIDRb0Cvw8mEi2NiTIRGiVIcgXEZqhc7bwHW4NueiXAKtj/gxkkHWGcqCAED0BMIpDCeQ==",
+  "dgSpecHash": "QnN9flHyLSfNFCksAvfal/RFfPF0tXfOutUafkRg/WQDjJqEOsBSzUR8qn6s8ltSBb1NI+0nBK6ZmGiQ7pKoZg==",
   "success": true,
-  "projectFilePath": "D:\\AspnetCore_Identity\\AspnetIdentityV2\\AspnetIdentityV2.csproj",
+  "projectFilePath": "D:\\Udemy\\AspnetCore_Identity\\AspnetIdentityV2\\AspnetIdentityV2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tranh\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\tranh\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

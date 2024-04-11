@@ -2930,11 +2930,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AspnetCore_Identity\\Auth-Service\\Auth-Service.csproj",
+      "projectUniqueName": "D:\\Udemy\\AspnetCore_Identity\\Auth-Service\\Auth-Service.csproj",
       "projectName": "Auth-Service",
-      "projectPath": "D:\\AspnetCore_Identity\\Auth-Service\\Auth-Service.csproj",
+      "projectPath": "D:\\Udemy\\AspnetCore_Identity\\Auth-Service\\Auth-Service.csproj",
       "packagesPath": "C:\\Users\\tranh\\.nuget\\packages\\",
-      "outputPath": "D:\\AspnetCore_Identity\\Auth-Service\\obj\\",
+      "outputPath": "D:\\Udemy\\AspnetCore_Identity\\Auth-Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

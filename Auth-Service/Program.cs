@@ -20,9 +20,9 @@ builder.Services.AddDbContext<ApplicationDBContext>(option =>
     option.UseSqlServer(connString);
 });
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDBContext>()
-    .AddDefaultTokenProviders()
-    .AddSignInManager();
+                .AddEntityFrameworkStores<ApplicationDBContext>()
+                .AddDefaultTokenProviders()
+                .AddSignInManager();
 
 var app = builder.Build();
 

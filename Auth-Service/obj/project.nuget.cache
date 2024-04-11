@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kfzCjxnzyAlMZ9dv6z+JxyVcqbWJKlYX1xdeATFuXcaREQzVY7+yOAQzeB0883mCPqiC23rM9dtETHd75fyuzQ==",
+  "dgSpecHash": "vvxXUjkPcC0C6YIA42d7BBRsfKO0uCb0HsQ+ijXO7MaWM8FJI5umvZZFdLGKCwKA3xfYZ/3WRUbLZl7OomcQCQ==",
   "success": true,
-  "projectFilePath": "D:\\AspnetCore_Identity\\Auth-Service\\Auth-Service.csproj",
+  "projectFilePath": "D:\\Udemy\\AspnetCore_Identity\\Auth-Service\\Auth-Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tranh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\tranh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

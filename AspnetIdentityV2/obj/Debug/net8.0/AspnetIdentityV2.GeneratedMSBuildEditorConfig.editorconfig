@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AspnetIdentityV2
 build_property.RootNamespace = AspnetIdentityV2
-build_property.ProjectDir = D:\AspnetCore_Identity\AspnetIdentityV2\
+build_property.ProjectDir = D:\Udemy\AspnetCore_Identity\AspnetIdentityV2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AspnetCore_Identity\AspnetIdentityV2
+build_property.MSBuildProjectDirectory = D:\Udemy\AspnetCore_Identity\AspnetIdentityV2
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Admin.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Index.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Member.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Member.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Privacy.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/AccessDenied.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/ExternalLoginCallback.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/ExternalLoginCallback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcRXh0ZXJuYWxMb2dpbkNhbGxiYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/MFASetup.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/MFASetup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTUZBU2V0dXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/Signin.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/Signin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcU2lnbmluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/Signup.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Identity/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/Error.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/_Identity.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/_Identity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JZGVudGl0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/_ViewImports.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/_ViewStart.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/_Layout.cshtml]
+[D:/Udemy/AspnetCore_Identity/AspnetIdentityV2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3jk86hn0xz
